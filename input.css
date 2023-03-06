@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width:675px) {
+    img {
+
+        border-top-right-radius: 9px;
+        border-top-left-radius: 9px;
+    }
+}
+
+@media (min-width:676px) {
+    img {
+
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+    }
+}
